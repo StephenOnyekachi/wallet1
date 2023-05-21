@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+
+    <link rel="icon" href="media/005.png">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">   
+            <div class="col-md-12 home-menu">
+                <div>
+                    <a href="home.html" class="active">
+                        <i class="fa fa-home"></i><br>
+                        <span>Home</span>
+                    </a>
+                    <a href="reward.html">
+                        <i class="fa fa-trophy"></i><br>
+                        <span>Reward</span>
+                    </a>
+                    <a href="invest.html">
+                        <i class="fa fa-database"></i><br>
+                        <span>Invest</span>
+                    </a>
+                    <a href="profile.html">
+                        <i class="fa fa-user-circle"></i><br>
+                        <span>Profile</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-12 home-main">
+                <div class="noti">
+                    <h3><i class="fa fa-bell-o"></i> Notifications</h3>
+                </div>
+                <div class="col-md-12 balance">
+                    <div class="balance-menu1">
+                        <div id="balance_show">
+                            <h1>1,000,000,000 <i class="fa fa-eye" onclick="balance_show(this)"></i></h1>
+                        </div>
+                        <div id="balance_close" style="display: none;">
+                            <h1>***** <i class="fa fa-eye-slash" onclick="balance_close(this)"></i></h1>
+                        </div>
+                    </div>
+                    <div class="balance-menu2">
+                        <img src="media/005.png" alt="">
+                        <p>user name</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mem">
+                            <h3><i class="fa fa-tachometer"></i> Trasantions</h3>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box">
+                                <a href="withdraw.html" class="">
+                                    <i class="fa fa-exchange"></i><br>
+                                    <span>Withdraw</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box">
+                                <a href="withdraw.html" class="">
+                                    <i class="fa fa-plus"></i><br>
+                                    <span>History</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box">
+                                <a href="withdraw.html" class="">
+                                    <i class="fa fa-exchange"></i><br>
+                                    <span>Trasfer</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mem">
+                            <h3><i class="fa fa-lightbulb-o"></i> Subsciption</h3>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box">
+                                <a href="airtime.html" class="">
+                                    <i class="fa fa-exchange"></i><br>
+                                    <span>Airtime</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box">
+                                <a href="home.html" class="">
+                                    <i class="fa fa-plus"></i><br>
+                                    <span>Data</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box">
+                                <a href="home.html" class="">
+                                    <i class="fa fa-exchange"></i><br>
+                                    <span>Bills</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="css/js.js"></script>
+    
+</body>
+</html>

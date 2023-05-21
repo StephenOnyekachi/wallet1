@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>withdraw</title>
+
+    <link rel="icon" href="media/005.png">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">   
+            <div class="col-md-12 home-menu">
+                <div>
+                    <a href="home.html">
+                        <i class="fa fa-caret-square-o-left"></i>
+                        <span>Back</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-12 reward-bg">
+                <div class="col-md-12 balance">
+                    <div class="balance-menu1">
+                        <span>Balance</span>
+                        <div id="balance_show">
+                            <h1>1,000,000,000 <i class="fa fa-eye" onclick="balance_show(this)"></i></h1>
+                        </div>
+                        <div id="balance_close" style="display: none;">
+                            <h1>***** <i class="fa fa-eye-slash" onclick="balance_close(this)"></i></h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 inves">
+                        <div>
+                            <form action="confirm.html">
+                                <div>
+                                    <input type="text" name="bank name" id="" placeholder="Enter bank name" required>
+                                </div>
+                                <div>
+                                    <input type="number" name="amount" id="" placeholder="Enter amount" required>
+                                </div>
+                                <div>
+                                    <input type="text" name="discription" id="" placeholder="Discription" required>
+                                </div>
+                                <div>
+                                    <button>Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="css/js.js"></script>
+    
+</body>
+</html>

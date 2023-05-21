@@ -1,0 +1,420 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.active{
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+.main{
+    padding: 20px;
+    background: linear-gradient(rgb(1, 1, 87), rgb(0, 0, 255));
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+.login_main{
+    padding: 20px;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(228, 228, 228));
+    height: 100vh;
+}
+.signup{
+    padding: 20px;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(228, 228, 228));
+    height: 150vh;
+}
+.signup .login_section1 form{
+    width: 50%;
+    padding: 30px;
+    box-shadow: 0px 3px 4px rgb(190, 190, 190);
+    margin: 50px 300px;
+    position: absolute;
+}
+
+.section1{
+    position: relative;
+    padding-top: 100px;
+    margin-top: 30px;
+}
+
+.login_section1 form{
+    width: 50%;
+    padding: 30px;
+    box-shadow: 0px 3px 4px rgb(190, 190, 190);
+    margin: 150px 300px;
+    position: absolute;
+}
+.section1 h3{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.section1 p{
+    color: rgb(219, 219, 219);
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.section1 a{
+    position: relative;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    width: 20%;
+}
+.section1 a:hover{
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+}
+
+.login_section1 label{
+    color: rgb(97, 97, 97);
+    font-weight: lighter;
+}
+.login_section1 h3{
+    padding-bottom: 10px;
+}
+.login_section1 input{
+    padding: 10px;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid rgb(97, 97, 97);
+}
+.login_section1 button{
+    padding: 10px;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0px 3px 4px rgb(190, 190, 190);
+    transition: all 0.5s ease-in-out;
+}
+
+.login_section1 button:hover{
+    padding: 10px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: white;
+    background-color: rgb(121, 123, 252);
+}
+
+
+.home-main{
+    background: linear-gradient(to right, rgb(243, 243, 243), rgb(214, 214, 214));
+    top: 0px;
+    position: absolute;
+    height: auto;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 20px;
+}
+.balance{
+    background: linear-gradient(to right, rgb(0, 6, 51), rgb(0, 7, 83));
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+.balance-menu1{
+    width: 75%;
+    float: left;
+}
+.balance-menu2{
+    width: 25%;
+    float: right;
+}
+
+.profile-menu1{
+    width: 70%;
+    float: left;
+}
+.profile-menu2{
+    width: 30%;
+    float: right;
+}
+
+.balance-menu2 img{
+    margin-top: 15px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.balance-menu2 p{
+    top: 10px;
+    position: relative;
+    /* text-align: center; */
+}
+
+.home-menu{
+    background: linear-gradient(to right, rgb(228, 228, 228), rgb(233, 233, 233));
+    position: fixed;
+    z-index: 100;
+    bottom: 0px;
+    padding: 10px;
+}
+
+.home-menu a{
+    width: 320px;
+    float: left;
+    text-align: center;
+    align-items: center;
+    color: rgb(0, 7, 83);
+    transition: all 0.5 ease-in-out;
+}
+.home-menu a:hover{
+    text-decoration: none;
+    color: rgb(4, 25, 190);
+}
+
+.box{
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+    height: 100px;
+    background: rgb(196, 196, 253)
+    linear-gradient(to right, rgb(218, 137, 255), rgb(247, 216, 253), rgb(218, 137, 255));
+}
+.box a:hover{
+    text-decoration: none;
+}
+
+.box a{
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+    color: blueviolet;
+}
+
+.noti{
+    position: relative;
+    border-radius: 5px;
+    margin: 20px 10px;
+    padding: 2px;
+    box-shadow: 0px 3px 4px rgb(190, 190, 190);
+    background: linear-gradient(to right, rgb(218, 137, 255), rgb(113, 55, 124));
+}
+.noti i{
+    color: blueviolet;
+    font-size: 16px;
+}
+.noti h3{
+    color: blueviolet;
+    font-size: 16px;
+}
+
+.mem{
+    position: relative;
+    border-radius: 5px;
+    margin: 20px 10px;
+    padding: 5px 5px;
+    box-shadow: 0px 3px 4px rgb(190, 190, 190);
+}
+.mem i{
+    color: blueviolet;
+    padding-left: 10px;
+}
+.mem h3{
+    color: blueviolet;
+    font-size: 15px;
+}
+.mem a{
+    color: blueviolet;
+    font-size: 15px;
+}
+
+.reward-bg{
+    background: linear-gradient(to right, rgb(243, 243, 243), rgb(214, 214, 214));
+    top: 0px;
+    position: absolute;
+    height: 135vh;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 20px;
+}
+.reward-balance{
+    background: linear-gradient(to right, rgb(0, 6, 51), rgb(0, 7, 83));
+    border-radius: 10px;
+    color: white;
+    padding: 50px;
+    margin: 10px;
+}
+
+.invest img{
+    width: 300px;
+    height: 150px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+}
+.invest-noti{
+    position: relative;
+    top: 75px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    padding: 2px;
+    box-shadow: 0px 3px 4px rgb(190, 190, 190);
+    background: linear-gradient(to right, rgba(218, 137, 255, 0.548), rgba(112, 55, 124, 0.466));
+}
+.invest-noti i{
+    color: blueviolet;
+    font-size: 16px;
+}
+.invest-noti h3{
+    color: blueviolet;
+    font-size: 16px;
+}
+
+.clam{
+    width: 50%;
+    margin-left: 300px;
+}
+.box button{
+    border: none;
+    outline: none;
+    background-color: initial;
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+.icon{
+    border: none;
+    outline: none;
+    background-color: initial;
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+
+
+.inves{
+    margin: 20px 0px;
+}
+.invest{
+    padding: 10px;
+    color: white;
+}
+.invest a:hover{
+    text-decoration: none;
+}
+.invest i{
+    font-size: x-large;
+    color: rgb(255, 251, 25);
+    margin-top: 20px;
+}
+.invest p{
+    font-size: xx-large;
+    color: white;
+    margin-top: 20px;
+}
+.invest h3{
+    font-size: x-large;
+    color: white;
+    margin-top: 20px;
+}
+.invests-a{
+    padding: 10px;
+    height: 200px;
+    background: linear-gradient(to right, rgb(1, 70, 1), rgb(5, 131, 5));
+    border-radius: 10px;
+    text-align: center
+}
+.invests-b{
+    padding: 10px;
+    height: 200px;
+    background: linear-gradient(to right, rgb(70, 1, 24), rgb(153, 15, 61));
+    border-radius: 10px;
+    text-align: center
+}
+.invests-c{
+    padding: 10px;
+    height: 200px;
+    background: linear-gradient(to right, rgb(1, 37, 58), rgb(20, 72, 139));
+    border-radius: 10px;
+    text-align: center
+}
+.invests-d{
+    padding: 10px;
+    height: 200px;
+    background: linear-gradient(to right, rgb(204, 0, 0), rgb(255, 71, 71));
+    border-radius: 10px;
+    text-align: center
+}
+
+
+.inves input{
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 3px rgb(37, 37, 37);
+    color: blueviolet;
+}
+
+
+.confirm{
+    width: auto;
+    background: linear-gradient(to right, rgb(0, 6, 51), rgb(0, 7, 83));
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.inves button{
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 3px rgb(37, 37, 37);
+    color: white;
+    background: linear-gradient(to right, #8a2be2, rgb(155, 56, 248));
+}
+.confirm-pin input{
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 3px rgb(37, 37, 37);
+    color: blueviolet;
+}
+.button button{
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 3px rgb(37, 37, 37);
+    color: white;
+    background: linear-gradient(to right, #8a2be2, rgb(155, 56, 248));
+}
+.cancel{
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 3px rgb(37, 37, 37);
+    background: linear-gradient(to right, #b6b6b6, rgb(145, 145, 145));
+    text-align: center;
+}
+.cancel a{
+    color: #8a2be2;
+}
+
